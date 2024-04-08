@@ -10,7 +10,7 @@ fi
 DEST_DIR="/usr/bin"
 
 # Install bababoy script
-curl -s  "$BABABOY_SCRIPT_CONTENT" > "$DEST_DIR/bababoy"
+curl -s  https://raw.githubusercontent.com/rguilmont/fancy_scripts/main/prompt.sh > "$DEST_DIR/bababoy"
 chmod +x "$DEST_DIR/bababoy"
 
 echo "bababoy has been installed to $DEST_DIR"
